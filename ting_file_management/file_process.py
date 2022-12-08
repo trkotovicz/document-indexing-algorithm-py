@@ -7,7 +7,6 @@ def process(path_file, instance: Queue):
         return ''
 
     text = txt_importer(path_file)
-
     result_dict = {
         "nome_do_arquivo": path_file,
         "qtd_linhas": len(text),
@@ -18,8 +17,11 @@ def process(path_file, instance: Queue):
     print(result_dict)
 
 
-def remove(instance):
-    """Aqui irá sua implementação"""
+def remove(instance: Queue):
+    if not len(instance):
+        return print('Não há elementos')
+    result = instance.dequeue()
+    print(f"Arquivo {result['nome_do_arquivo']} removido com sucesso")
 
 
 def file_metadata(instance, position):
