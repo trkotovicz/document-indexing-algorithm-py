@@ -25,5 +25,8 @@ def exists_word(word, instance: Queue):
     return result
 
 
-def search_by_word(word, instance):
-    """Aqui irá sua implementação"""
+def search_by_word(word, instance: Queue):
+    obj = exists_word(word, instance)
+    for element in obj:
+        element['ocorrencias']
+    ...
