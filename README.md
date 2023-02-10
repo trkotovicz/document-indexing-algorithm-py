@@ -1,13 +1,47 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Algoritmo de Indexação de Documentos
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Programa que simula um algoritmo de indexação de documentos similar ao do Google. Ele é capaz de identificar ocorrências de termos em arquivos TXT.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Este projeto não tem como foco a análise de significados ou busca por sinônimos.
+
+
+## Habilidades desenvolvidas:
+
+Manipulação de Pilhas.</br>
+Manipulação de Deque.</br>
+Manipulação de Nó & Listas Ligadas.</br>
+Manipulação de Listas Duplamente Ligadas.</br>
+
+
+## Ambiente Virtual
+
+O Python oferece um recurso chamado de ambiente virtual, onde permite sua máquina rodar sem conflitos, diferentes tipos de projetos com diferentes versões de bibliotecas.</br>
+
+Criar o ambiente virtual
+```
+$ python3 -m venv .venv
+```
+
+Ativar o ambiente virtual
+```
+$ source .venv/bin/activate
+```
+
+Instalar as dependências no ambiente virtual
+```
+$ python3 -m pip install -r dev-requirements.txt
+```
+Com o seu ambiente virtual ativo, as dependências serão instaladas neste ambiente.
+Quando precisar desativar o ambiente virtual, execute o comando "deactivate".
+
+O arquivo `dev-requirements.txt` contém todas as dependências que serão utilizadas no projeto.
+
+
+---
+
+
+</br>
+
+Projeto desenvolvido por [Thais R Kotovicz](https://www.linkedin.com/in/thaiskotovicz/).
+</br>
+
